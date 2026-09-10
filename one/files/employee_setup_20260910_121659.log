@@ -1,0 +1,14 @@
+[2026-09-10 12:16:59] [INFO] Starting employee account setup from 'employees_sample.csv'
+./create_employees.sh: line 101: groupadd: command not found
+[2026-09-10 12:16:59] [ERROR] Failed to create group 'engineering' for user 'jsmith'
+./create_employees.sh: line 101: groupadd: command not found
+[2026-09-10 12:16:59] [ERROR] Failed to create group 'marketing' for user 'awong'
+./create_employees.sh: line 101: groupadd: command not found
+[2026-09-10 12:16:59] [ERROR] Failed to create group 'engineering' for user 'rkhan'
+./create_employees.sh: line 101: groupadd: command not found
+[2026-09-10 12:16:59] [ERROR] Failed to create group 'finance' for user 'mlopez'
+./create_employees.sh: line 101: groupadd: command not found
+[2026-09-10 12:16:59] [ERROR] Failed to create group 'marketing' for user 'tchen'
+[2026-09-10 12:16:59] [INFO] Setup complete. Created: 0 | Skipped: 0 | Errors: 5
+[2026-09-10 12:16:59] [INFO] Full log written to: ./employee_setup_20260910_121659.log
+[2026-09-10 12:16:59] [INFO] IMPORTANT: temporary passwords are recorded in the log above — distribute securely and delete/secure the log file afterward.
