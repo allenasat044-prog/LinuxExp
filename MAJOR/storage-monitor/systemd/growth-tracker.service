@@ -1,0 +1,6 @@
+[Unit]
+Description=Storage Monitor - daily growth snapshot
+
+[Service]
+Type=oneshot
+ExecStart=/opt/storage-monitor/bin/growth-tracker.sh snapshot

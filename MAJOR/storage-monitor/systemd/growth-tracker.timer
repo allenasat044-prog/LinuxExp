@@ -1,0 +1,10 @@
+[Unit]
+Description=Run growth snapshot once a day
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+Unit=growth-tracker.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Storage Monitor - disk/inode check
+
+[Service]
+Type=oneshot
+ExecStart=/opt/storage-monitor/bin/storage-monitor.sh --quiet

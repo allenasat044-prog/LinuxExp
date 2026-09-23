@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Storage Monitor every 15 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+Unit=storage-monitor.service
+
+[Install]
+WantedBy=timers.target
